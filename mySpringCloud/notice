@@ -1,0 +1,11 @@
+﻿一.一个springboot项目要导入第三方依赖，有下列几种方式：
+1.调用方中将被调用方交给spring Ioc管理：
+将第三方项目打成jar，然后在调用方项目中引入第三方项目jar包依赖，然后需要@Configuration配置类中用@Bean将第三方项目中的对象交给Spring Ioc容器管理，最后在业务代码中@Autowired注入即可使用。
+
+2.在被调用方（第三方项目）中，交给spring Ioc管理：
+在第三方项目中，通过@Configuration配置类中用@Bean将第三方项目中的对象交给Spring Ioc容器管理，然后将第三方项目打成jar，接着在调用方项目的启动类中，加上@Import(***Configuration.class)，以便让调用方知道去
+spring哪个路径下找这个三方jar的对象。最后在业务代码中@Autowired注入即可使用。
+
+3.直接让所有的第三方项目，将@Configuration配置类的路径放到spring约定好的目录（resources/META-INF/spring.factories）下（这个目录在第三方项目自己的项目中），被调用方启动就去这个目录下加载相关对象。----SPI机制。 这正好是springboot采取的处理策略！
+spring.factories内容如下：
+org.springframework.boot.autoconfigure.EnableAutoConfiguration = \.................

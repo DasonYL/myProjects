@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8" addBOMForNewFiles="with BOM">
+    <file url="file://$PROJECT_DIR$/childProject1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/childProject1/src/main/java/com/tuling/common/exception/ApiException.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/childProject1/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/childProject1/src/test/java/com/tuling/controller/DeepCopyTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/childProject1/src/test/java/com/tuling/controller/MyExceptionTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mySpringCloud/addService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mySpringCloud/addService/src/main/java/com/yl/Test.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mySpringCloud/addService/src/main/java/com/yl/config/BatchConfiguration.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mySpringCloud/addService/src/main/java/com/yl/config/SingleConfiguration.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mySpringCloud/addService/src/main/java/com/yl/config/ThirdDependencyConfiguration.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mySpringCloud/addService/src/main/java/com/yl/domain/User.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mySpringCloud/addService/src/main/java/com/yl/service/MyService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mySpringCloud/addService/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mySpringCloud/customizeapi/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mySpringCloud/customizeapi/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mySpringCloud/customizeservicestarter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mySpringCloud/customizeservicestarter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mySpringCloud/minusservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mySpringCloud/minusservice/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mySpringCloud/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mySpringCloud/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nettyDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nettyDemo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yl-mybatis-spring-boot-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yl-mybatis-spring-boot-starter/src/main/java/com/shigan/YLConfiguration.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/yl-mybatis-spring-boot-starter/src/main/java/com/shigan/YLMybatisConnection.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yl-mybatis-spring-boot-starter/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

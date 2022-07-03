@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="customizeapi" />
+        <module name="yl-mybatis-spring-boot-starter" />
+        <module name="minusservice" />
+        <module name="addService" />
+        <module name="nettyDemo" />
+        <module name="childProject1" />
+        <module name="customizeservicestarter" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="-encoding utf-8" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="addService" options="" />
+      <module name="childProject1" options="-parameters" />
+      <module name="customizeapi" options="" />
+      <module name="customizeservicestarter" options="" />
+      <module name="minusservice" options="" />
+      <module name="myProjects" options="-parameters" />
+      <module name="mySpringCloud" options="-parameters" />
+      <module name="nettyDemo" options="" />
+      <module name="yl-mybatis-spring-boot-starter" options="" />
+    </option>
+  </component>
+</project>
